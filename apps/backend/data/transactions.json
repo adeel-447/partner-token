@@ -1,0 +1,65 @@
+[
+  {
+    "id": "txn_001",
+    "type": "credit",
+    "description": "Initial Token Credit",
+    "amount": 1000,
+    "balanceAfter": 1000,
+    "status": "completed",
+    "createdAt": "2026-11-15T10:00:00.000Z"
+  },
+  {
+    "id": "txn_312ceb7a-6175-40d7-86a5-95fd0a6098a2",
+    "type": "credit",
+    "description": "Token Purchase",
+    "amount": 1000,
+    "balanceAfter": 2000,
+    "status": "completed",
+    "createdAt": "2026-11-15T19:16:20.071Z"
+  },
+  {
+    "id": "txn_f6eac733-81ce-45ac-a4ca-e8e88e9f97d8",
+    "type": "debit",
+    "description": "Token Redemption",
+    "amount": 250,
+    "balanceAfter": 1750,
+    "status": "completed",
+    "createdAt": "2026-11-15T19:21:09.465Z"
+  },
+  {
+    "id": "txn_edfd101f-a26a-4d0e-8b8e-66f4e519d482",
+    "type": "debit",
+    "description": "Token Redemption",
+    "amount": 250,
+    "balanceAfter": 1500,
+    "status": "completed",
+    "createdAt": "2026-11-15T19:22:04.265Z"
+  },
+  {
+    "id": "txn_2d98fad5-d520-4979-a763-c98bbd526632",
+    "type": "debit",
+    "description": "Token Redemption",
+    "amount": 1500,
+    "balanceAfter": 0,
+    "status": "completed",
+    "createdAt": "2026-11-15T19:22:56.555Z"
+  },
+  {
+    "id": "txn_a01a51a6-c854-4b2e-a22e-1f3c8f7b9956",
+    "type": "credit",
+    "description": "Token Purchase",
+    "amount": 1000,
+    "balanceAfter": 1000,
+    "status": "completed",
+    "createdAt": "2026-11-15T19:28:07.657Z"
+  },
+  {
+    "id": "txn_5d39485b-1f49-4ea9-b1f8-0c6e2620739c",
+    "type": "debit",
+    "description": "Token Redemption",
+    "amount": 2,
+    "balanceAfter": 998,
+    "status": "completed",
+    "createdAt": "2026-11-15T19:28:19.951Z"
+  }
+]

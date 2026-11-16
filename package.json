@@ -1,0 +1,20 @@
+{
+  "name": "token-poc",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "engines": { "node": ">=22.12.0", "npm": ">=10" },
+  "scripts": {
+    "dev": "concurrently --kill-others --names frontend,backend \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "npm run dev --workspace=@token-poc/frontend",
+    "dev:backend": "npm run dev --workspace=@token-poc/backend",
+    "build": "npm run build --workspaces",
+    "start": "concurrently --kill-others --names frontend,backend \"npm run start --workspace=@token-poc/frontend\" \"npm run start --workspace=@token-poc/backend\"",
+    "lint": "npm run lint --workspaces",
+    "typecheck": "npm run typecheck --workspaces"
+  },
+  "devDependencies": { "concurrently": "^9.2.1", "typescript": "^5.9.3" },
+  "overrides": {
+    "@typescript-eslint/typescript-estree": { "minimatch": "^11.0.1" }
+  }
+}
